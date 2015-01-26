@@ -1,4 +1,9 @@
-# The first function, makeCacheMatrix creates a special "matrix", 
+# Below functions cache the inverse of a matrix. They make use of 
+# lexical scoping in order to make availabe the inverse matrix value once 
+# it has been set operational environment of the first functions sub-function.
+
+# The first function, makeCacheMatrix creates a special "matrix" 
+# that can cache its inverse object, 
 # which is really a list containing a function to
 # set the value of the matrix
 # get the value of the matrix
