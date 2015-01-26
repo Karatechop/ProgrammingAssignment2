@@ -1,6 +1,6 @@
 # Below functions cache the inverse of a matrix. They make use of 
 # lexical scoping in order to make availabe the inverse matrix value once 
-# it has been set operational environment of the first functions sub-function.
+# it has been set in the operational environment of the first functions sub-function.
 
 # The first function, makeCacheMatrix creates a special "matrix" 
 # that can cache its inverse object, 
